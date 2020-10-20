@@ -11,6 +11,9 @@ jobs:
       - run:
           command: yarn run test
           name: Run YARN tests
+      - run:
+          command: yarn audit
+          name: Run packages audit
 workflows:
   test_app:
     jobs:
