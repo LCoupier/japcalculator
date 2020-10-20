@@ -55,6 +55,9 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
 
   return (
     <div className={classes.container}>
+      <div>
+        Hello
+      </div>
       <div className={classes.calculatorContainer}>
         <div className={classes.lateralBar}>
           <img src={kanjiLeft} alt="kanji" />
