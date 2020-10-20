@@ -5,6 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^4.9.2",
     "@material-ui/icons": "^4.9.1",
+    "@sentry/react": "^5.26.0",
+    "@sentry/tracing": "^5.26.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -49,6 +51,9 @@
   },
   "devDependencies": {
     "@types/history": "^4.7.5",
-    "@types/react-redux": "^7.1.7"
+    "@types/react-redux": "^7.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint-plugin-react": "^7.21.5"
   }
 }
