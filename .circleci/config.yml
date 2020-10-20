@@ -11,6 +11,9 @@ jobs:
       - run:
           command: yarn run test
           name: Run YARN tests
+      - run:
+          command: yarn run eslint /src/*.ts /src/*/tsx
+          name: Check code style
 workflows:
   test_app:
     jobs:
