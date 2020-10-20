@@ -15,13 +15,13 @@ import { Integrations } from "@sentry/tracing";
 Sentry.init({
 	dsn: "https://c93a8f5866bb44a7a8f7af2e50cb2647@o464340.ingest.sentry.io/5472438",
 	integrations: [
-	  new Integrations.BrowserTracing(),
+		new Integrations.BrowserTracing(),
 	],
   
 	// We recommend adjusting this value in production, or using tracesSampler
 	// for finer control
 	tracesSampleRate: 1.0,
-  });
+});
 
 ReactDOM.render(
 	<Provider store={store}>
